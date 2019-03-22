@@ -52,7 +52,7 @@
     </div>
 
     <div class="w3-row bg-black">
-        <div class="w3-col w3-right w3-container w3-section w3-leftbar border-pink w3-hide-small" style="width:300px">
+        <div class="w3-col w3-right w3-container w3-section leftbar border-pink w3-hide-small" style="width:300px">
             <h3 class="w3-center bg-pink"><b class="text-white">HOBBIES</b></h3>
             <div class="w3-card w3-margin-bottom bg-dark-purple">
                 <p><strong class="text-white">New technologies</strong></p>
@@ -72,18 +72,18 @@
             </div>
         </div>
         <div class="w3-rest w3-container" style="margin-left:33px;">
-            <h1 class="w3-xxlarge w3-center text-green w3-opacity-min w3-border-bottom w3-padding-48 border-pink upper shadowing"><strong>about virtual me</strong></h1>
-            <div class="w3-panel w3-round-large w3-border border-green w3-padding-24 margin-bottom-large text-purple">
+            <h1 class="w3-xxlarge w3-center text-green w3-opacity-min border-bottom w3-padding-48 border-pink upper shadowing"><strong>about virtual me</strong></h1>
+            <div class="w3-panel w3-round-large border border-green w3-padding-24 margin-bottom-large text-purple">
                 <p>
                     Being curious by nature, I have been interested in programming for a while. Since I am an artist by trade I struggled with letting go of this calling even if it was a difficult one. As time passed I wished more and more for stability in my line of work which brought me back to coding. I am now fully committed and learned the fundamentals to become a junior web developer. However I have still some shortcomings which lead me to certified training with <a href="https://www.cefim.eu/" target="_blank" class="text-green" style="text-decoration:none;">CEFIM</a>. I hope to get the necessary experience to launch my new career.
                 </p>
             </div>
-            <div class="w3-panel w3-round-large text-purple w3-border border-green">
+            <div class="w3-panel w3-round-large text-purple border border-green">
                 <h3>How do I learn and teach myself ?</h3>
                 <p>Below you will find links to some of the websites that I use on a regular basis.</p>
                 <div class="w3-row-padding w3-margin-bottom">
                     <div class="w3-half">
-                        <div class="w3-bar w3-border-top border-pink w3-padding">
+                        <div class="w3-bar border-top border-pink w3-padding">
                             <p>E-learning with :</p>
                             <div class="w3-bar-item w3-hover-opacity">
                                 <a href="https://openclassrooms.com/fr/" target="_blank" title="openclassrooms"><img src="https://blog.openclassrooms.com/wp-content/uploads/2018/11/linkedin_logo_200x200-2.jpg" alt="openclassrooms logo" class="h45"></a>
@@ -97,7 +97,7 @@
                         </div>
                     </div>
                     <div class="w3-half">
-                        <div class="w3-bar w3-border-top border-pink w3-padding">
+                        <div class="w3-bar border-top border-pink w3-padding">
                             <p>Heplful tools and coder network :</p>
                             <div class="w3-bar-item white-hover">
                                 <a href="https://codepen.io/#" target="_blank" title="codepen"><i class="fab fa-codepen fa-3x"></i></a>
@@ -112,12 +112,12 @@
                     </div>
                 </div>
             </div>
-            <div class="w3-panel w3-round-large text-purple w3-border border-green">
+            <div class="w3-panel w3-round-large text-purple border border-green">
                 <h3>Because coding isn't just about learning a new language !</h3>
                 <p>Practice is as important as learning new tools, what better way than challenging yourself against other coders !</p>
                 <div class="w3-row-padding w3-margin-bottom">
                     <div class="w3-half">
-                        <div class="w3-bar w3-border-top border-pink w3-padding">
+                        <div class="w3-bar border-top border-pink w3-padding">
                             <p>Following fun courses and sharing code :</p>
                             <div class="w3-bar-item w3-hover-opacity">
                                 <a href="https://www.sololearn.com/" target="_blank" title="sololearn"><img src="https://www.sololearn.com/images/fb-story-icon.jpg" alt="sololearn icon" class="h45"></a>
@@ -128,7 +128,7 @@
                         </div>
                     </div>
                     <div class="w3-half">
-                        <div class="w3-bar w3-border-top border-pink w3-padding">
+                        <div class="w3-bar border-top border-pink w3-padding">
                             <p>Without a healthy planet, there won't BE a planet thus no more screen time for you ! So be a little green :</p>
                             <div class="w3-bar-item w3-hover-opacity">
                                 <a href="https://www.lilo.org/fr/bienvenue-sur-lilo/" target="_blank" title="lilo"><img src="https://pbs.twimg.com/profile_images/1100438243085115394/p9Yf4keY_400x400.png" alt="sololearn icon" class="h45"></a>
@@ -143,29 +143,7 @@
         </div>
     </div>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $("#blackbar").mouseover(
-                function() {
-                    $("#blackbar").css({
-                        "display": "none"
-                    });
-                    $("#sidebar").css({
-                        "display": "block"
-                    });
-                });
-            $("#sidebar").mouseleave(
-                function() {
-                    $("#blackbar").css({
-                        "display": "block"
-                    });
-                    $("#sidebar").css({
-                        "display": "none"
-                    });
-                });
-        });
-
-    </script>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
